@@ -1,0 +1,17 @@
+        #todoList {
+            list-style-type: none;
+            padding: 0;
+        }
+        #todoList li {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        #todoList button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+        }
+ 

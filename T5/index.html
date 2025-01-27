@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="missastin/Teht-v-nanto/T5/style.css">
+    <script src="missastin/Teht-v-nanto/T5/script.js"></script>
+    <title>Lomake</title>
+</head>
+<body>
+    <h1>Täytä lomake</h1>
+    <form onsubmit="return validateForm()">
+        <label for="name">Nimi:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="email">Sähköposti:</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="age">Ikä:</label>
+        <input type="number" id="age" name="age">
+        
+        <button type="submit">Lähetä</button>
+    </form>
+</body>
+</html>
