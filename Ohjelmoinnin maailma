@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>Ohjelmoinnin maailma</title>
 </head>
+<style>
+        h1 {
+            color: blue;
+        }
+        p {
+            font-size: 18px;
+        }
+        ol {
+            list-style-type: circle;
+        }
+    </style>
 <body>
     <h1>Tervetuloa ohjelmoinnin maailmaan!</h1>
     <p>Tämä on esittelysivu HTML:stä, CSS:stä ja JavaScriptistä.</p>
@@ -12,5 +23,11 @@
         <li>CSS</li>
         <li>JavaScript</li>
     </ol>
+ <button id="alertButton">Paina minua</button>
+    <script>
+        document.getElementById('alertButton').addEventListener('click', function() {
+            alert('Hei maailma!');
+        });
+    </script>
 </body>
 </html>
